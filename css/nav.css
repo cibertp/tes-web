@@ -2,9 +2,14 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    margin: 0 auto;
+    align-content: center;
+}
 .header{
- margin: auto;
- width: 500px;
+ background-color: rgba( 10, 9, 9, 0.986 );
+padding: 20px;
+ width:100%;
 }
 
 ul , ol{
@@ -14,7 +19,7 @@ ul , ol{
     background-color: #000;
     color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 1px 15px;
     display: block;
      
 }
@@ -22,7 +27,8 @@ ul , ol{
     float: left;
 }
 .nav li a:hover{
-    background-color: #432432;
+    padding: 10px;
+    background-color: rgba( 126, 107, 113, 0.156 );
 }
 .nav li ul{
     display:none;
