@@ -1,0 +1,133 @@
+*{
+    
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    background-color: #fff;
+}
+
+#headerPrincipal{
+
+    border-bottom: 10px;
+    margin-bottom: 15px ;
+    
+    
+}
+#navPrincipal{
+    
+    margin: 20px;
+    padding: 10px;
+}
+#navPrincipal ul {
+    background-color: tomato;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+#navPrincipal ul li{
+    background-color: #e8663f;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    border-radius:10px;
+    border-bottom: 5px solid #fff;
+    box-shadow: 10px ;
+ 
+}
+#navPrincipal ul li:hover{
+    background-color: #ec4c17;
+    color: #fff;
+}
+
+/*parte principal de*/
+#rightPrincipal{
+    
+    vertical-align: top;
+    background-color:#e8eae5;
+    display:inline-block;
+    width: 24%;
+    text-align: left;
+    align-content: flex-end;    
+     
+}
+
+
+#sectionprincipal{
+    
+    vertical-align: top;
+    align-content: center;
+    background-color: #f0f3eb;
+    display: inline-block;
+    width: 51.1%;
+    text-align: left;
+    margin: 1px;
+    margin-bottom: 15px;
+     
+    
+}
+
+#leftPrincipal{
+    vertical-align: top;
+    background-color: #f2f3f1;
+    width: 24%;
+    display: inline-block;
+}
+article{
+    background-color: #c1e1b1;
+}
+
+/* parate final de principal*/
+#footerPrincipal{
+    border-top:10px;
+    background-color: #111310;
+    width: 100%;
+    color: #fff;
+}
+
+
+
+/*para una celular*/
+
+@media screen and (max-width: 100px) {
+    body {
+        background-color: lightgreen;
+    }
+    /*aside*/
+    #rightPrincipal{
+        width: 30%;
+        display: inline-block;
+        
+    }
+    #sectionprincipal{
+         width: 60%;
+        display: inline-block; 
+        float: right;
+        
+    }
+    
+    #leftPrincipal{
+         width:39.6%;
+        display: block;
+        float: left;
+        
+    }
+    #footerPrincipal{
+    width: 100%;
+        clear: both;
+}
+    
+}
+@media screen and(max-width : 620px){
+    #principal{
+        min-width: 300px;
+}
+}
+
+
+
+
