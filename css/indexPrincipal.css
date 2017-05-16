@@ -91,8 +91,46 @@ article{
     border-top:10px;
     background-color: #111310;
     width: 100%;
+    color: #111310;
+    padding: 10px;
+}
+
+h3{
     color: #fff;
-    padding: 30px;
+}
+.sectionFooter{
+    align-content: center;
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    padding: 10px;
+    color: #fff;
+    margin: 0px;
+}
+
+.sectionFooter  nav ul{
+   list-style-image: url(../img/flecha.gif);
+   
+    width: 100%;
+    text-align: center;
+     color: #fff;
+}
+a{
+    color: #443a3a;
+    text-decoration:none;
+    padding-right: 5px;
+    margin: 10px;
+}
+
+.sectionFooter  nav ul li{
+    border-bottom: 1px dashed #fff;
+    color: #fff;
+    padding: 7px;
+}
+small{
+    color: #fff;
+    clear: both;
+    width: 100%;
 }
 
 
