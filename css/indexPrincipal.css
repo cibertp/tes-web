@@ -21,7 +21,7 @@ body{
 #navPrincipal{
     background-color: rgba( 10, 9, 9, 0.986 );
     margin: 20px;
-    padding: 10px;
+    padding: 40px;
 }
 #navPrincipal ul {
       background-color: rgba( 26, 29, 26, .7 );
